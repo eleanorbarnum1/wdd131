@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body{
+    margin:0;
+    background-color:#7F2122;
+}
+header{
+    background-color:rgb(128, 128, 201);
+    color:white;
+    min-width:300px;
+    font-family: "Cinzel", serif;
+    background-color:#FACD1E;
+    max-height:112px;
+}
+header h1{
+    margin:0;
+    text-align:left;
+    padding:5px;
+    color:#D32929;
+    justify-content: left;
+    padding:16px;
+    padding-top:20px;
+
+}
+#nav-btn {
+	font-size: 2rem;
+	border: 0;
+	background: none;
+	color: #D32929;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#nav-btn::before {
+	content: "☰";
+}
+
+#nav-btn.open::before {
+	content: "X";
+}
+.open a {
+	display: block;
+}
+
+.active::before { 
+	content: "📍"; 
+}
+nav{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+nav ul{
+    list-style-type: none;
+    padding-top:10px;
+    display:none;
+}
+nav ul.open{
+    display:block;
+    width:150px;
+    position: absolute;
+    top: 3rem;
+    right: 0;
+}
+nav li{
+    text-align:right;
+    /*margin-right:1rem;*/
+    padding-right:16px;
+    padding-bottom:10px;
+    background-color:#FACD1E;
+}
+nav a{
+    text-decoration:none;
+    font-size:20px;
+    color:black;
+    font-weight:500;
+}
+nav a:hover{
+    text-decoration:underline dotted #D32929;
+}
+main{
+    display:grid;
+    grid-template-columns:1fr;
+
+}
+main h2{
+    text-align:center;
+    color:white;
+    font-family: "Manrope", sans-serif;
+    text-decoration:underline dotted white;
+    margin-bottom:0;
+    margin-top:30px;
+}
+main img{
+    width:50%;
+}
+figcaption{
+    font-family: "Manrope", sans-serif;
+    color:white;
+    font-weight:200;
+    font-size:14px;
+    text-align:center;
+}
+
+footer{
+    padding:20px;
+    background-color:#FACD1E;
+}
+footer p{
+    color:black;
+    margin:auto;
+    padding:2px;
+    justify-content: center;
+    text-align:center;
+    font-family: "Cinzel", serif;
+    font-weight:600;
+    font-size:13px;
+    line-height:20px;
+}
