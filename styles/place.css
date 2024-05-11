@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+html{
+    width:100%;
+}
+body{
+    margin:auto;
+    font-family: "Lora", serif;
+}
+
+header{
+    background-color:#E81B39;
+    margin:0;
+}
+header h1{
+    color:white;
+    padding:30px 20px 30px 20px;
+    margin:auto;
+    text-align:center;
+}
+
+picture img{
+    width: 100%;
+	height: auto;
+}
+.card{
+    text-align:center;
+    margin-bottom:60px;
+    border-style:solid;
+    border-width: 5px;
+    border-color:#FFB7C5;
+    width:80%;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.card h2{
+    background-color:#E81B39;
+    color:white;
+    width:50%;
+    margin:auto;
+    font-size:25px;
+    margin-top:20px;
+    padding:10px;
+    border-style:solid;
+    border-width: 5px;
+    border-color:#FFB7C5;
+}
+.card img{
+    padding-top:10px;
+}
+
+#weather img{
+    width:50px;
+}
+
+footer{
+    padding:20px;
+    background-color:#E81B39;
+}
+footer p{
+    color:white;
+    margin:auto;
+    padding:2px;
+    justify-content: center;
+    text-align:center;
+    font-size:16px;
+    line-height:20px;
+    margin-top:0;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Eleanor Barnum">
+    <meta name="description" content="Image gallery of the 9 biggest temples of the world">
+    <title>W03 Assignment</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-medium.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src ="scripts/place.js" defer></script>
+    <script src ="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Washington D.C</h1>
+    </header>
+    <main>
+        <picture>
+            <source srcset="images/dc-large.jpg" media="(min-width:1000px)">
+            <source srcset="images/dc-medium.jpg" media="(min-width:500px)">
+            <img src="images/DC-small.jpg" alt="Scenic image of Washington D.C momuments surrounded by cherry blossoms" width="300">
+          </picture>
+          <div id="data" class="card">
+            <h2>Data</h2>
+            <p><b>Area:</b> 68.35 sq mi</p>
+            <p><b>Population:</b> 689,545</p>
+            <p><b>Language:</b> English</p>
+            <p><b>Time Zone:</b> EDT/EST</p>
+            <p><b>Calling Code:</b> 202/771</p>
+            <p><b>Mayor:</b> Muriel Bowser</p>
+          </div>
+          <div id="weather" class="card">
+            <h2>Weather</h2>
+            <img src="images/sun.svg" alt="small sun weather icon">
+            <p><b>Temperature:</b> 40 &deg F</p>
+            <p><b>Conditions:</b> Sunny</p>
+            <p><b>Wind:</b> 3 mp/h</p>
+            <p><b>Wind Chill: </b><span id="wChill"></span></p>
+          </div>
+    </main>
+    <footer>
+        <p> &#169 <span id="currentyear"></span> Eleanor M. Barnum Virginia</p>
+        <p id="lastmodified"></p>
+    </footer>
+    
+</body>
+</html>

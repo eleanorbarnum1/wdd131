@@ -1,0 +1,50 @@
+@media screen and (min-width:500px){
+    main{
+        position: relative;
+    }
+    #data{
+        position: absolute;
+        top: 30px;
+        left: 40px;
+    }
+    #weather{
+        position: absolute;
+        bottom:30px;
+        right: 40px;
+    }
+    #weather h2::after{
+        padding-left:10px;
+        content:"☀️";
+    }
+    #weather img{
+        display:none;
+    }
+    .card{
+        width:40%;
+        background-color:rgb(255,183,197,.8);
+        border:none;
+        padding-top:10px;
+    }
+    .card h2{
+        text-align:left;
+        border:none;
+        width:100%;
+        height:100%;
+        margin-top:0;
+        margin-left:-30px;
+        margin-right:30px;
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-left:10px;
+        padding-right:0;
+    }
+    footer{
+        bottom:0;
+    }
+
+    
+    
+    
+    
+    
+    }

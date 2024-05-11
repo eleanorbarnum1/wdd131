@@ -1,0 +1,14 @@
+@media screen and (min-width:1000px){
+    #data{
+        top: 30px;
+        left: 50px;
+    }
+    #weather{
+        bottom:30px;
+        right: 50px;
+    }
+    .card{
+        width:20%;
+    }
+
+}
