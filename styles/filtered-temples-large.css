@@ -1,0 +1,44 @@
+@media screen and (min-width:689px){
+    header{
+        display:grid;
+        grid-template-columns:40% 60%;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    header h1{
+        font-size:27px;
+    }
+    
+    #nav-btn{
+        display:none;
+    }
+    #menu-bar{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        /*margin-left:5em;
+        margin-right:1em;*/   
+    }
+    nav a{
+        font-size:18px;
+    }
+    main{
+    /*    display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        max-width:800px;*/
+        margin:auto;
+    }
+    main h2{
+        margin-bottom:50px;
+    }
+    main heading{
+        grid-row:1/2;
+        grid-column:1/4;
+    }
+
+    #templeCards{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        }
+
+}

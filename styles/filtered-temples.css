@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body{
+    margin:0;
+    background-color:white;
+}
+header{
+    color:white;
+    min-width:300px;
+    font-family: "Cinzel", serif;
+    background-color:#7F2122;
+    max-height:112px;
+}
+header h1{
+    margin:0;
+    text-align:left;
+    padding:5px;
+    color:white;
+    justify-content: left;
+    padding:16px;
+    padding-top:20px;
+
+}
+#nav-btn {
+	font-size: 2rem;
+	border: 0;
+	background: none;
+	color: white;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#nav-btn::before {
+	content: "☰";
+}
+
+#nav-btn.open::before {
+	content: "X";
+}
+.open a {
+	display: block;
+}
+
+.active::before { 
+	content: "📍"; 
+}
+nav{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+nav ul{
+    list-style-type: none;
+    padding-top:10px;
+    display:none;
+}
+nav ul.open{
+    display:block;
+    width:150px;
+    position: absolute;
+    top: 3rem;
+    right: 0;
+}
+nav li{
+    text-align:right;
+    /*margin-right:1rem;*/
+    padding-right:16px;
+    padding-bottom:10px;
+    background-color:#7F2122;
+}
+nav a{
+    text-decoration:none;
+    font-size:20px;
+    color:white;
+    font-weight:500;
+}
+nav a:hover{
+    text-decoration:underline dotted white;
+}
+main{
+   /* display:grid;
+    grid-template-columns:1fr;*/
+}
+main h2{
+    text-align:center;
+    color:black;
+    font-family: "Cinzel", serif;
+    text-decoration:underline dotted black;
+    margin-bottom:30px;
+    margin-top:30px;
+    font-size:27px;
+}
+#templeCards{
+display:grid;
+grid-template-columns:1fr;
+}
+.temple-card{
+    border-style:solid;
+    border-width:5px;
+    border-color:#7F2122;
+    font-family: "Manrope", sans-serif;
+    color:black;
+    width:80%;
+    margin:auto;
+    display:flex;  
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    margin-bottom:50px;
+    background-color:white;
+}
+.temple-card h3{
+    text-align:center;
+    margin-bottom:0;
+    font-size:21px;
+    text-decoration:underline dotted white;
+    color:#7F2122;
+}
+.temple-card p{
+   text-align:center; 
+   color:#7F2122;
+}
+.temple-card img{
+   width:90%;
+   margin:auto; 
+   align-self: center;
+   padding-bottom:15px;
+}
+
+
+footer{
+    padding:20px;
+    background-color:#7F2122;
+}
+footer p{
+    color:white;
+    margin:auto;
+    padding:2px;
+    justify-content: center;
+    text-align:center;
+    font-family: "Cinzel", serif;
+    font-weight:600;
+    font-size:13px;
+    line-height:20px;
+}
