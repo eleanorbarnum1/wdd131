@@ -126,8 +126,7 @@ function renderTemples(filteredTemples){
 //home
 const home = document.querySelector("#home");
 home.addEventListener("click",() =>{
-  let home = temples.filter(temple => temple.location.includes("Utah"));
-  renderTemples(home);
+  renderTemples(temples);
 })
 //old
 const old = document.querySelector("#old");
