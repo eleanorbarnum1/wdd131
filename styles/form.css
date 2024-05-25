@@ -1,0 +1,79 @@
+body{
+    background-color:black;
+    margin:auto;
+}
+main{
+    margin:auto;
+    color:white;
+    width:90%;
+    max-width:400px;
+}
+h1{
+    text-align:center;
+    border-width:2px;
+    border-color:red;
+    border-style:solid;
+    background-color:red;
+    color:black;
+    font-size:3em;
+}
+h1, fieldset legend, button{
+    font-family: "Creepster", system-ui;
+}
+option,#product, #dateinstall, #features{
+    font-family: "EB Garamond", serif;  
+}
+footer{
+    text-align:center;
+    border-width:2px;
+    border-color:red;
+    border-style:solid;
+    background-color:red;
+    color:black;
+    margin:auto;
+}
+fieldset{
+    border:0;
+    color:rgb(255, 81, 0);
+    border-width:2px;
+    border-color:rgb(255, 111, 0);
+    border-style:solid;
+    padding: 10px 5px 10px 5px;
+    margin-bottom:20px;
+    text-align:center;
+}
+legend{
+    border-width:2px;
+    border-color:rgb(255, 111, 0);
+    border-style:solid;
+    padding:5px;
+    max-width:400px;
+    text-align:center;
+    font-size:1.2em;
+}
+#product, #dateinstall{
+    background-color:rgb(255, 111, 0);
+    border:0;
+    color:white;
+    padding:5px;
+}
+label{
+    color:rgb(255, 111, 0);
+}
+#username{
+    width:90%;
+    height:100px; 
+}
+#textbox #reveiw{
+    width:400px;
+}
+button{
+    background-color:rgb(246, 255, 0);
+    width:150px;
+    height:50px;
+    margin-bottom:20px;
+    text-align:center;
+    margin-left:120px;
+    font-size:1.2em;
+    border:0;
+}

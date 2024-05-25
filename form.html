@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W05 Assignment</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="author" content="Eleanor Barnum">
+    <meta name="description" content="A simple form for a product reveiw">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Product Reveiw</h1>
+        <form action="reveiw.html"method="get">
+            <fieldset>
+                <legend>Product Name:</legend>
+                <select id="product" name="product" required>
+                <option value="" disabled selected>Choose a Product ...</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Overall Rating</legend>
+                <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar">&star;</label>
+                <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar">&star;&star;</label>
+                <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar">&star;&star;&star;</label>
+                <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar">&star;&star;&star;&star;</label>
+                <input type="radio" id="fivestar" name="stars" value="5" required><label for="fourstar">&star;&star;&star;&star;&star;</label>
+            </fieldset>
+            <fieldset>
+                <legend>Date of Installation</legend>
+                <input type="date" id="dateinstall" name="date" required>
+            </fieldset>   
+
+            <fieldset id="checkbox">
+                <legend>Which features did you find useful in the product?<br>(Check all that apply)</legend>
+                <input type="checkbox" id="features" name="feature1" value="durability">
+                <label for="feature1">Durability</label><br>
+            
+                <input type="checkbox" id="features" name="feature2" value="easeofuse">
+                <label for="feature2">Ease of use</label><br>
+
+                <input type="checkbox" id="features" name="feature3" value="performance">
+                <label for="feature3">Performance</label><br>
+            
+                <input type="checkbox" id="features" name="feature4" value="design">
+                <label for="feature4">Design</label><br>
+            </fieldset>
+        
+            <fieldset id="textbox">
+                <legend>Written Review (Optional)</legend>
+                <textarea id="review" name="review"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Your Name (Optional)</legend>
+                <input type="text" id="username" name="username">
+            </fieldset>
+            <div id="button-area">
+                <button type="submit">Post Review</button>
+            </div>
+        </form>
+    </main>
+    <footer>        
+        <p> &#169; <span id="currentyear"></span> Eleanor M. Barnum Virginia</p>
+        <p id="lastmodified"></p>
+    </footer>
+</body>
+</html>
