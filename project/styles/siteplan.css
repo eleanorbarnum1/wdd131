@@ -1,0 +1,52 @@
+h1,h2,h3{
+    font-family: "Slackey", sans-serif;
+    padding-top:20px;
+    color:white;
+}
+p{
+    font-family: "Pathway Extreme", sans-serif;
+    width:530px;
+    margin:auto;
+    text-align:center;
+}
+body{
+    background-image: radial-gradient(circle, rgb(148, 228, 78) 30%, #4CAF50 70%);
+    width:100%;
+    margin:auto;
+    text-align:center;
+
+}
+.orange-square{
+    height: 100px;
+    width: 100px;
+    background-color:#ff981a;
+    margin:auto;
+}
+.green2-square{
+    height: 100px;
+    width: 100px;
+    background-color:#d9ec2e;
+    margin:auto;
+}
+.green3-square{
+    height: 100px;
+    width: 100px;
+    background-color:#388E3C;
+    margin:auto;
+}
+.white-square{
+    height: 100px;
+    width: 100px;
+    background-color:white;
+    margin:auto;
+}
+.black-square{
+    height: 100px;
+    width: 100px;
+    background-color:black;
+    margin:auto;
+}
+img{
+    width:520px;
+    margin-bottom:20px;
+}
