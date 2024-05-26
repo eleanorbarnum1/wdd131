@@ -20,7 +20,7 @@ h1{
 h1, fieldset legend, button{
     font-family: "Creepster", system-ui;
 }
-option,#product, #dateinstall, #features{
+option,#product, #dateinstall, .features{
     font-family: "EB Garamond", serif;  
 }
 footer{
