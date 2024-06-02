@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraveWise</title>
+    <meta name="author" content="Eleanor Barnum">
+    <meta name="description" content="CraveWise is a smart way to find healthier food/snack alternatives. Simply click on the food category
+    and you'll be given an easy-to-follow list of popular foods in that category and their tastiest alternatives.">
+    <link rel="stylesheet" href="styles/cravewise-small.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Slackey&display=swap" rel="stylesheet">
+    <script src ="scripts/savory.js" defer></script>
+    <script src ="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>CraveWise</h1>
+        <h2 id="choicetext">Choose a food group below to view their healthier alternatives.
+            Your options are: Savory, Sweet, Beverages, and Salty</h2>
+        <nav>
+            <ul>
+                <li><a href="savory.html"><img id="burger" src="images/burger.png" alt="Pixelated image of a hamburger" loading="lazy"></a></li>
+                <li><a href="sweet.html"><img src="images/icecream.png" alt="Pixelated image of a pink ice cream cone" loading="lazy"></a></li>
+                <li><a href="beverage.html"><img id="drink" src="images/drink.png" alt="Pixelated image of a yellow beverage" loading="lazy"></a></li>
+                <li><a href="salty.html"><img src="images/fries.png" alt="Pixelated image of french fries" loading="lazy"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3 class="food-group">Savory</h3>
+        <div class="table" id="savoryTable"></div>
+        <div class="container">
+            <a href="index.html">
+                <button class="bottom-btn">Go Back</button>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <p> &#169 <span id="currentyear"></span> Created By Eleanor M. Barnum</p>
+        <p id="lastmodified"></p>
+        <a href="attributions.html">Attributions page</a>
+    </footer>
+</body>
+</html>

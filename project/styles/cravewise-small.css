@@ -1,0 +1,186 @@
+/*ALL PAGES*/
+body{
+    width:100%;
+    background-image: radial-gradient(circle, rgb(148, 228, 78) 30%, #4CAF50 70%);
+    margin:auto;
+
+}
+header h1{
+    font-size:50px;
+    font-family: "Slackey", sans-serif;
+    color:#ecff44;
+    margin:auto;
+    text-align:center;
+    margin-top:20px;
+}
+#choicetext{
+    font-family: "Pathway Extreme", sans-serif;
+    text-align:center;
+    color:white;
+    font-size:17px;
+    padding:7px;
+    margin:20px;
+    border-width:4px;
+    border-style:solid;
+    border-color:white;
+    border-radius:10px;
+    max-width:500px;
+}
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding-left:0;
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap:wrap;
+    height:100%;
+
+}
+
+nav ul li {
+    flex-basis:50%;
+    text-align:center;
+  }
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin:auto;
+    max-width:100%;
+    max-height:100%;
+
+}
+
+nav ul li a img{
+    width:56px;
+    margin:auto;
+    padding-bottom:5px;
+}
+nav ul li a img:hover {
+    border-bottom:5px;
+    border-bottom-style:dotted;
+    border-bottom-color:white;
+
+
+}
+#drink{
+    width:40px;
+    height:100px;
+}
+#burger{
+    width:70px;
+}
+.food-group{
+    font-size:30px;
+    font-family: "Slackey", sans-serif;
+    color:white;
+    margin:auto;
+    text-align:center;
+    margin-top:20px; 
+    margin-bottom:20px;
+}
+
+.dot{
+    text-align:center;
+    color:white;
+    font-size:18px;
+    padding:7px;
+    margin:20px;
+    font-size:40px;
+}
+.container{
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.bottom-btn{
+    background-color:transparent;
+    font-family: "Pathway Extreme", sans-serif;
+    text-align:center;
+    color:white;
+    font-size:17px;
+    padding:7px;
+    margin:auto;
+    margin:20px;
+    border-width:4px;
+    border-style:solid;
+    border-color:white;
+    border-radius:10px;
+}
+.bottom-btn:hover{
+    color:rgba(255, 250, 91, 0.67);
+    border-color:rgba(255, 250, 91, 0.67);
+}
+footer{
+    font-family: "Pathway Extreme", sans-serif;
+    font-size:13px;
+    font-weight:bold;
+    color:#225425;
+    background-color:#ecff44;
+    text-align:center;
+    padding:20px;
+}
+footer a{
+    color:#225425;
+    text-decoration:none;
+}
+footer a:hover{
+    border-bottom:5px;
+    border-bottom-style:dotted;
+    border-bottom-color:#225425;
+}
+
+
+/*Tables*/
+table{
+    padding:10px;
+    font-size:15px;
+    font-family: "Pathway Extreme", sans-serif;
+    text-align:left;
+    border-collapse:collapse;
+    margin:auto;
+    background-color:#ffc176;
+    max-width:90%;
+}
+table td{
+    border:5px solid #ff981a;
+    padding:10px;
+}
+table th{
+    background-color:#ff981a;
+    padding-top:20px;
+    padding-bottom:20px;
+    border:5px solid #ff981a;
+    color:white;
+    text-align:center;
+}
+thead{
+    font-size:16px;
+}
+
+
+@media screen and (min-width: 570px){
+    #choicetext{
+        margin:auto;
+    }
+    nav ul{
+        flex-wrap:nowrap;
+        margin-top:20px;
+    }
+}
+
+@media screen and (min-width: 1030px){
+    .food-group{
+        margin-top:40px;
+    }
+    #choicetext{
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+    nav ul{
+        width:70%;
+        margin:auto;
+    }
+}
