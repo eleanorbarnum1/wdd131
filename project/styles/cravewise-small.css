@@ -1,14 +1,14 @@
 /*ALL PAGES*/
 body{
     width:100%;
-    background-image: radial-gradient(circle, rgb(148, 228, 78) 30%, #4CAF50 70%);
+    background-image: radial-gradient(circle, rgb(141, 227, 66) 30%, #4CAF50 70%);
     margin:auto;
 
 }
 header h1{
     font-size:50px;
     font-family: "Slackey", sans-serif;
-    color:#ecff44;
+    color:white;
     margin:auto;
     text-align:center;
     margin-top:20px;
@@ -16,13 +16,13 @@ header h1{
 #choicetext{
     font-family: "Pathway Extreme", sans-serif;
     text-align:center;
-    color:white;
+    color:#225425;
     font-size:17px;
     padding:7px;
     margin:20px;
     border-width:4px;
     border-style:solid;
-    border-color:white;
+    border-color:#225425;
     border-radius:10px;
     max-width:500px;
 }
@@ -75,7 +75,7 @@ nav ul li a img:hover {
 .food-group{
     font-size:30px;
     font-family: "Slackey", sans-serif;
-    color:white;
+    color:#225425;
     margin:auto;
     text-align:center;
     margin-top:20px; 
@@ -99,19 +99,19 @@ nav ul li a img:hover {
     background-color:transparent;
     font-family: "Pathway Extreme", sans-serif;
     text-align:center;
-    color:white;
+    color:#225425;
     font-size:17px;
     padding:7px;
     margin:auto;
     margin:20px;
     border-width:4px;
     border-style:solid;
-    border-color:white;
+    border-color:#225425;
     border-radius:10px;
 }
 .bottom-btn:hover{
-    color:rgba(255, 250, 91, 0.67);
-    border-color:rgba(255, 250, 91, 0.67);
+    color:white;
+    border-color:white;
 }
 footer{
     font-family: "Pathway Extreme", sans-serif;
